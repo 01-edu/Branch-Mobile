@@ -59,6 +59,6 @@ Visit  [https://flutter.dev/docs/cookbook/navigation/named-routes](https://flutt
 
 
 ### **Bonus**
-  Make extra effort on the UI of the App
+  Make extra effort on the UI of the App.
 
 [https://flutter.dev/docs/resources/platform-adaptations](https://flutter.dev/docs/resources/platform-adaptations)
