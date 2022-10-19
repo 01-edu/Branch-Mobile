@@ -55,7 +55,7 @@ The appbar should have a name of the film and go back button.
 Visit  [https://flutter.dev/docs/cookbook/navigation/named-routes](https://flutter.dev/docs/cookbook/navigation/named-routes) to see how to implement routing.
 
 ### **Assets**
-  [movies.json](https://github.com/01-edu/Branch-Mobile/tree/master/subjects/flutter_piscine/week01/day04/movieList/movies.son)
+  [movies.json](movies.json)
 
 
 ### **Bonus**
