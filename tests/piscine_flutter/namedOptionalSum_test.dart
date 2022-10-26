@@ -12,6 +12,7 @@ void main() {
       int first = -100 + rnd.nextInt(200);
       int second = -100 + rnd.nextInt(200);
       int third = -100 + rnd.nextInt(200);
+      
       test(
           'namedOptionalSum(first: ${first}, second: ${second}, third: ${third})',
           () {
@@ -19,6 +20,11 @@ void main() {
             student.namedOptionalSum(
                 first: first, second: second, third: third),
             equals(first + second + third));
+      });
+
+      test('namedOptionalSum(first: ${first}, second: ${second})', () {
+        expect(student.namedOptionalSum(first: first, second: second),
+            equals(first + second));
       });
 
       test('namedOptionalSum(second: ${second}, third: ${third})', () {
@@ -29,6 +35,14 @@ void main() {
       test('namedOptionalSum(first: ${first}, third: ${third})', () {
         expect(student.namedOptionalSum(first: first, third: third),
             equals(first + third));
+      });
+
+      test('namedOptionalSum(first: ${first})', () {
+        expect(student.namedOptionalSum(first: first), equals(first));
+      });
+
+      test('namedOptionalSum(second: ${second})', () {
+        expect(student.namedOptionalSum(second: second), equals(second));
       });
 
       test('namedOptionalSum(third: ${third})', () {
