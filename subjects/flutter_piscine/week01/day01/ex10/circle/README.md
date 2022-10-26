@@ -12,27 +12,28 @@ Syntax of the getters and setters:
 
 ```dart
 class Rectangle {
-  double left, top, width, height;
+  double l, t, w, h;
 
-  Rectangle(this.left, this.top, this.width, this.height);
+  Rectangle(this.l, this.t, this.w, this.h);
 
-  double get right => this.left + this.width;
+  double get right => this.l + this.w;
   
   set left(double value) {
     if (value >= 0) {
-      this.left = value;
+      this.l = value;
     } else {
       throw new FormatException(); 
     }
   }
 
-  double get bottom => this.top - this.height;
+  double get bottom => this.t - this.h;
   
 }
 
 void main() {
   var rect = Rectangle(3, 4, 20, 15);
   rect.left = 12;
+  print(rect.l);
 }
 ```
 
