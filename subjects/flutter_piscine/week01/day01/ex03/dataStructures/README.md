@@ -14,12 +14,12 @@ List<int> listNum2 = [1, 2, 3];
 
 ### Set
 
-Set is an unordered collection of unique items. Sets are created as:
+Set is an unordered collection of unique items. Sets are created as follows:
 
 ```dart
-var set1 = {'Germany', 'Kazakhstan', 'France'};
+var set1 = {'Germany', 'Kazakhstan', 'France', 'Englang'};
 // or ...
-Set<String> set2 = {'Germany', 'Kazakhstan', 'France'};
+Set<String> set2 = {'Germany', 'Kazakhstan', 'France', 'England'};
 ```
 
 ### Map
@@ -27,13 +27,13 @@ Set<String> set2 = {'Germany', 'Kazakhstan', 'France'};
 Map is a key-value data structure. Maps are created as:
 
 ```dart
-var map1 = {
+var mapRadius = {
   'Earth': 6378.1,
   'Jupiter': 71492,
   'Moon': 1738.1,
 };
 // or ...
-Map<String, double> map1 = {
+Map<String, double> mapRadius = {
   'Earth': 6378.1,
   'Jupiter': 71492,
   'Moon': 1738.1,

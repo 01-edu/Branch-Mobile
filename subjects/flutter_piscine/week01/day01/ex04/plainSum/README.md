@@ -8,7 +8,7 @@ bool isEven(int num) {
 }
 ```
 
----
+
 
 ### **Exercise**
 

@@ -13,18 +13,19 @@ class Point {
 }
 ```
 
-**Point** - name of the class, **x, y** - are fields
+**Point** - name of the class, **x, y** - are fields/attributes.
 
-What if one wants to create a Point with different x and y? To do that one needs to declare **_Constructor_** - a function that specifies how to create object of a class given a set of parameters.
+What if one wants to initiate a Point with different x and y? To do that one needs to declare **_Constructor_** - a function that specifies how to create object of a class given a set of parameters.
 
 ```dart
 class Point {
-  double x = 0; // field
-  double y = 0; // field
+  double x = 0; // field/attribute
+  double y = 0; // field/attribute
 
-  Point(double x, double y) { //Constructor
+  // Constructor
+  Point(double x, double y) { 
     this.x = x; // initializing fields
-    this.y = y; // In geometry, points must have x and y coordinates
+    this.y = y; // In 2D geometry, points must have x and y coordinates
   }
 }
 ```

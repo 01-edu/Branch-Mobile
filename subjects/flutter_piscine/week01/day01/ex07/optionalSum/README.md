@@ -23,7 +23,7 @@ void main() {
 
 > **Note:** Optional parameters **must** come after the required parameters.
 
-> **Note:** you cannot use both optional and named parameters, you should choose **one** of them.
+> **Note:** One cannot use both optional and named parameters, you should choose **only one** of them.
 
 ### **Exercise**
 

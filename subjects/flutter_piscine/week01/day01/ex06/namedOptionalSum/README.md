@@ -5,21 +5,21 @@
 In Dart you can declare functions that require explicit naming for arguments. Compare 2 functions below.
 
 ```dart
-// Instead of
+// Example 1
 void someFunction(bool bold, bool hidden) {...}
 
 someFunction(true, false);
 ```
 
 ```dart
-
+// Example 2
 // Now you must specify which argument you are referring to
 void someFunction({bool? bold, bool? hidden}) {...}
 
 someFunction(bold: true, hidden: false);
 ```
 
-This way you must specify the name of argument each time you call a function. You can also skip parameter by simply not specifying its name and value.
+This way you must specify the name of argument each time you call a function. You can also skip parameter by simply not specifying its name and value. What do you think will be default value for skipped parameters?
 
 ### Null safety
 
@@ -31,5 +31,5 @@ What happens if the argument of the function is optional and it is omitted? It s
 
 ### **Exercise**
 
-Write a function that accepts named parameters "first", "second", "third" and returns the sum of them. All the parameters are integers. Absent parameters are considered as 0. Name of the function - namedOptionalSum.
+Write a function that accepts named parameters "first", "second", "third" and returns the sum of them. All the parameters are integers. Absent parameters should be considered as 0. Name of the function - namedOptionalSum.
 
