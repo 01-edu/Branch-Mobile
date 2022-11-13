@@ -1,21 +1,17 @@
 #### Functional
 
-###### Does app shows all fetch posts?
+#### In order to run and hot reload app either on emulator or device, follow the [instructions](https://docs.flutter.dev/get-started/test-drive?tab=androidstudio#run-the-app).
 
-###### Are an email and a password asked for registration?
+###### Does app shows all fetched posts?
 
-###### Does the app detect if a user already exists?
+###### Tap any post, does it open webview of the content?
 
-###### Is it possible to register?
+###### Can you go back to the main page?
 
-###### Are you able to create post as not logged in user?
+###### Tap login page. Does it open route to login?
 
-###### Are you able to up-vote/down-vote post as not logged in user?
+###### Can you login with actual login and password from the website?
 
-###### Are you able to delete post as not logged in user?
+###### After loggen in, try to upvote, comment, hide upvote on posts and see that it is reflected on the actual website.
 
-###### Are you able to create post as logged in user?
-
-###### Are you able to up-vote/dow-nvote post as logged in user?
-
-###### Are you able to delete post as logged in user?
+###### You should **not** be able to create posts, upvote, etc as **not** logged in user. Is that the case?

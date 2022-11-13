@@ -4,7 +4,7 @@
 
 The app where you can add your own notes. It should behave as normal notes app where you can add, modify, remove old notes, but the app should be secure. Being secure means that the notes should only be accessible through the app, and only after biometric authentication.
 
-Packages: your own *sqflite* package.
+Packages: *sqflite* package.
 
 ### Objective
 
@@ -16,8 +16,7 @@ Packages: your own *sqflite* package.
 
 ### First Part
 
-- App must be only in [Android](https://developer.android.com/design) style!
-- Main Screen show display list of notes with title, and scheduled time
+- Main Screen displayd list of notes with title, and description.
 - Implement ReordableListView to reorder items in list
 - Add ability to delete item by swiping
 - Add "add" button, which opens screen with 3 text fields
@@ -28,18 +27,19 @@ Packages: your own *sqflite* package.
 
 ### Second Part
 
-- Screen to add item
-- If one of the fields are empty show error
+- Screen to add new notes.
+- If any of the fields is empty, show error.
 
 ### Third Part
 
-- Edit Screen
-- Show text in textfields to edit
+- Edit Screen.
+- Show text in textfields to edit.
 
 ### Fourth Part
 
-Add sqflite package, so your notes will be saved, even when app reloads
-When app loads it should get notes from database
+Add sqflite package, so your notes will be saved, even when app reloads.
+When app loads it should get notes from database.
+
 
 ```jsx
 class Database {
@@ -70,4 +70,4 @@ Make a biometric authentication. Make sure that notes are not accessible without
 
 ### Sixth Part
 
-Localize your apllication https://flutter.dev/docs/development/accessibility-and-localization/internationalization
+[Localize](https://flutter.dev/docs/development/accessibility-and-localization/internationalization) your apllication.

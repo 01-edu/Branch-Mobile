@@ -1,5 +1,7 @@
 #### Functional
 
+#### In order to run and hot reload app either on emulator or device, follow the [instructions](https://docs.flutter.dev/get-started/test-drive?tab=androidstudio#run-the-app).
+
 ###### Does the application run without crashes?
 
 ###### Does the application have Bottom tabbar?

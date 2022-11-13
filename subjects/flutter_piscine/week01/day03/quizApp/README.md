@@ -2,13 +2,14 @@
 
 ### Introduction
 
-Develop a [**stateful app**](https://docs.flutter.dev/development/ui/interactive) that displays categories that you can choose from, i.e. history, pop culture, math, geography, etc (add name, and appropriate image).
+Develop a [**stateful Quiz app**](https://docs.flutter.dev/development/ui/interactive) that displays categories that you can choose questions from.
+Possible categories: history, pop culture, math, geography, etc (appropriate name, image must be added to all categories).
 
+After tapping on the category the new route must show a corresponding image to the category, the question itself, true/false buttons. 
 
-Next, after tapping on the category the new route must show a corresponding image to the category, the question itself, true/false buttons. 
+After the question has been answered, you must let the user know if the question was answered correctly.
 
-After the question has been answered, you must let the user know if the question was answered correctly.  
-After the quiz is finished, user must see their result.
+After the quiz is finished, a user must see their result.
 
 ### Objective
 
@@ -24,7 +25,7 @@ After the quiz is finished, user must see their result.
 
 ### Categories page:
 
-- Grid list view of categories with appropriate images and names. Make at least 5 categories and at least 10 questions to each quiz. Show 2 categories in a row.
+- **Grid list** view of categories with appropriate images and names. Make at least 5 categories and at least 10 questions to each quiz. Show 2 categories in a row.
 - Your app should have models for Question and Categories:
 
 ```jsx
@@ -49,7 +50,7 @@ class Category {
 
 > Note: you can style the app as you want
 
-> Note: only standard Dart package, package:flutter
+> Note: only standard Dart package, package:flutter are allowed.
 
 
 
@@ -62,9 +63,9 @@ class Category {
 
 ### Navigation and routing:
 
-- When tapping on category push screen to DetailedView, which shows appropriate image, question and true/false buttons
-- Create a stateful widget, so you can change page's state. [Example](https://flutter.dev/docs/development/ui/interactive)
-- When answering question change color of button or background, so the user know that answer is wrong or right
+- When tapping on category push screen to **DetailedView**, which shows appropriate image, question and true/false buttons
+- Create a stateful widget, so you can change page's [state](https://flutter.dev/docs/development/ui/interactive).
+- When answering question change color of button or background, so the user know that answer is right or wrong.
 
 <center>
 <img src="https://github.com/alem-01/alem_public/blob/master/resources/quizApp.01.png?raw=true" style = "width: 210px !important; height: 420px !important;"/>
@@ -74,7 +75,7 @@ class Category {
 
 ## Third part
 
-When all question are answered show the score on a new page
+When all questions are answered show the score on a new page.
 
 - It should have Text with score and button which returns user to the main page
 
@@ -84,4 +85,4 @@ When all question are answered show the score on a new page
 </center>
 
 ### **Bonus**
-Add a timer to each question, so the user must answer a question in a fixed time
+Add a timer to each question, so the user must answer a question in a fixed time. After time is up, question should be marked as answered incorrectly and omitted.
