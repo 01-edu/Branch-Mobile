@@ -11,3 +11,10 @@
 ###### Does player's tile move in the same direction as phone is tilted?
 
 ###### Do tiles disappear when ball bounces off them?
+
+###### When player's tile reaches the end of the display, it should not be going out of display's dimensions, is that the case?
+
+###### Does the game end when all tiles disappear?
+
+###### Does the game end when ball hits bottom part of display?
+
