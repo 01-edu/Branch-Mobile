@@ -8,12 +8,13 @@
 | 2   | Quest | BizzCard        | 1 day    | [github.com](./subjects/flutter_piscine/bizzCard)        |
 | 3   | Quest | QuizApp         | 1 day    | [github.com](./subjects/flutter_piscine/quizApp)         |
 | 4   | Quest | MovieList       | 2 days   | [github.com](./subjects/flutter_piscine/movieList)       |
-| 5   | Rush  | Hackernews      | 2 days   | [github.com](./subjects/flutter_piscine/hackernews)      |
+| 5   | Raid  | Hackernews      | 2 days   | [github.com](./subjects/flutter_piscine/hackernews)      |
 | 6   | Quest | FavouriteImages | 1 day    | [github.com](./subjects/flutter_piscine/favoriteImages) |
-| 7   | Quest | Bouncer         | 1 day   | [github.com](./subjects/flutter_piscine/bouncer)         |
-| 8   | Quest  | 01Map           | 1 day   | [github.com](./subjects/flutter_piscine/01Maps)          |
-| 9  | Quest | BlocCounter     | 2 days   | [github.com](./subjects/flutter_piscine/blocCounter)     |
-| 10   | Rush | SecureNotes     | 2 days   | [github.com](./subjects/flutter_piscine/secureNotes)     |
+| 7   | Quest | Bouncer         | 2 days   | [github.com](./subjects/flutter_piscine/bouncer)         |
+| 8   | Quest  | 01Map           | 2 days   | [github.com](./subjects/flutter_piscine/01Maps)          |
+| 9   | Raid | SecureNotes     | 2 days   | [github.com](./subjects/flutter_piscine/secureNotes)     |
+| 10  | Quest | Package     | 1 day   | [github.com](./subjects/flutter_piscine/blocCounter)     |
+| 11  | Quest | BlocCounter     | 2 days   | [github.com](./subjects/flutter_piscine/blocCounter)     |
 
 
 
