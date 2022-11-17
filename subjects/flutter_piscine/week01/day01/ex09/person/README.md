@@ -1,5 +1,25 @@
 ## person
 
+### Instructions
+
+Create a class named `Person`.
+
+Its attributes:
+
+- name - `string`
+- surname - `string`
+- cityOfOrigin - `string`
+- age - `int`
+- height - `int`
+
+Constructor:
+
+- name - `required`
+- cityOfOrigin - `required`
+- age - `required`
+- height - `required`
+- surname - `optional`
+
 ### Object Oriented Programming
 
 Dart supports object oriented programming which Flutter framework relies on. Classes have 2 main concepts: attributes and methods. Attributes are needed to store various data in the instance of Class and methods are functions, which can use Class attributes for various manipulations. To understand OOP and its difference from functional programming visit [this website](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/).
@@ -13,24 +33,24 @@ class Point {
 }
 ```
 
-**Point** - name of the class, **x, y** - are fields/attributes.
+**Point** - name of the class, **x, y** - are attributes.
 
-What if one wants to initiate a Point with different x and y? To do that one needs to declare **_Constructor_** - a function that specifies how to create object of a class given a set of parameters.
+What if you want to initiate a Point with different x and y? To do that declare a **_Constructor_** - which is a function that specifies how to create object of a class given a set of parameters.
 
 ```dart
 class Point {
-  double x = 0; // field/attribute
-  double y = 0; // field/attribute
+  double x = 0; // attribute
+  double y = 0; // attribute
 
   // Constructor
-  Point(double x, double y) { 
-    this.x = x; // initializing fields
-    this.y = y; // In 2D geometry, points must have x and y coordinates
+  Point(double x, double y) {
+    this.x = x; // initializing attributes
+    this.y = y;
   }
 }
 ```
 
-In Dart one can also use Constructor declaration of type **_Constructor(param1, param2...);_** thus saving a few lines of code if all one wants to do is to pass arguments to values.
+In Dart we can also use Constructor declaration of type **_Constructor(param1, param2...);_** thus saving a few lines of code if all we want to do is to pass arguments to values.
 
 ```dart
 class Point {
@@ -58,7 +78,7 @@ import 'dart:math';
 class Point {
   double x = 0; // field
   double y = 0; // field
-   
+
 Point(double x, double y) { // constructor
     this.x = x; // initializing field
     this.y = y; // initializing field
@@ -78,25 +98,4 @@ var p2 = Point(8, 3);
 print(p1.distanceTo(p2));
 ```
 
-### **Exercise**
-
-Make a class named `Person`.
-
-Its attributes:
-
-- name - string
-- surname - string
-- cityOfOrigin - string
-- age - int
-- height - int
-
-Constructor:
-
-- name - required
-- cityOfOrigin - required
-- age - required
-- height - required
-- surname - optional
-
-> Note: please see the [documentation](https://dart.dev/guides/language/language-tour#classes) for examples.
-
+- Note: please see the [documentation](https://dart.dev/guides/language/language-tour#classes) for examples.

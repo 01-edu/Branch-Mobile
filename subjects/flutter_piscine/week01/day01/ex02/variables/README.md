@@ -1,5 +1,7 @@
 ## variables
 
+### Instructions
+
 In Dart you can declare variables in two ways:
 
 ```dart
@@ -19,4 +21,4 @@ Declare and initialize following variables:
 - `lucky` of type `bool` containing true of false (you decide);
 - constant `pi` of type `double` containing pi value with 2 decimal points;
   
-> Note: no main needed!
+- Note: no main needed!

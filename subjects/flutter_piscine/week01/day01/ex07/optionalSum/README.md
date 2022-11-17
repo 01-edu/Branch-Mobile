@@ -1,8 +1,14 @@
 ## optionalSum
 
+### Instructions
+
+Write a function called `optionalSum()` that accepts two integer arguments, and an optional integer argument. Return the sum of all the arguments.
+
 ### Optional parameters
 
 In Dart you can also make function arguments optional, meaning that a function can work even if the optional argument is omitted. If the optional parameter is omitted, it is considered to be null.
+
+### Usage
 
 Example of function with optional parameters:
 
@@ -21,11 +27,6 @@ void main() {
 }
 ```
 
-> **Note:** Optional parameters **must** come after the required parameters.
+- Note: Optional parameters must come after the required parameters.
 
-> **Note:** One cannot use both optional and named parameters, you should choose **only one** of them.
-
-### **Exercise**
-
-Write a function that accepts two integer arguments, and an optional integer argument. Return the sum of all the arguments. Name of the function - optionalSum.
-
+- Note: You cannot use both optional and named parameters, you should choose only one of them.
