@@ -40,7 +40,7 @@ class Rectangle {
   Rectangle(this.l, this.t, this.w, this.h);
 
   double get right => this.l + this.w;
-
+ 
   set left(double value) {
     if (value >= 0) {
       this.l = value;
@@ -50,7 +50,7 @@ class Rectangle {
   }
 
   double get bottom => this.t - this.h;
-
+  
 }
 
 void main() {
