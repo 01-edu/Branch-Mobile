@@ -23,4 +23,3 @@
 ###### Ask student about pattern implementation. If they used BLoC ask them to explain the pattern, and [check](https://pub.dev/packages/flutter_bloc) whether they implemented it correctly.
 
 ###### Ask student about pattern implementation. If they used Provider ask them to explain the pattern, and [check](https://pub.dev/packages/provider) whether they implemented it correctly.
-
