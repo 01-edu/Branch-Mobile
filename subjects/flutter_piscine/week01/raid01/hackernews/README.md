@@ -1,4 +1,4 @@
-# hackernews
+## hackernews
 
 ### Introduction
 
@@ -33,5 +33,4 @@ When users logged in, they should be able to:
 - Make up-vote or hide their vote.
 - Log out.
 
-> Note: if user is not loggen in, but tries to access above mentioned actions, send user to login page of the app. 
-
+- Note: if user is not loggen in, but tries to access above mentioned actions, send user to login page of the app.

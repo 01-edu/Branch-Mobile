@@ -11,10 +11,10 @@
 ###### Does every movie icon contain name, image, release date, rating, duration?
 
 ###### Is the new route created when the movie icon is tapped?
-    
+
 ###### Does the movie profile page display at least 5 parameters regarding the tapped movie?
-    
-###### Does the search bar look for only the movies by movie name, as does SQL's ***ilike*** comparision?
+
+###### Does the search bar look for only the movies by movie name, as does SQL's **_ilike_** comparision?
 
 ###### When no search query is supplied, does the app show all items?
 

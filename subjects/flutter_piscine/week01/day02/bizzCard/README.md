@@ -1,4 +1,5 @@
-# BizzCard
+## bizzCard
+
 ### Introduction
 
 ### What is Flutter?
@@ -21,13 +22,13 @@ Hint: You can see some Flutter samples [here](https://flutter.github.io/samples/
 
 BizzCard is a simple application which shows a static card with your personal information.
 
-This subject is divided into 3 parts. Overall **objective** is for you to learn:
+This subject is divided into 3 parts. Overall objective is for you to learn:
 
 - About and apply the essence of Flutter - widgets.
 - Basic structure of a Flutter app.
 - How to run Flutter app on physical device or Android/iOS emulator.
 
-> Note: only standard Flutter packages and url_launcher (for bonus) are allowed
+- Note: only standard Flutter packages and url_launcher (for bonus) are allowed
 
 ### First Part
 
@@ -67,15 +68,14 @@ Try to make it as it is shown in the example below:
 
 Possible [diagram](https://flutter.dev/docs/development/ui/layout) of widget tree for the app.
 
-
 #### Helpful keywords for research:
+
 - AppBar
 - Column to align text in a card
 - Stack to place image on Container
 - Padding to add paddings to Container
 - Use DecorationImage inside BoxDecoration to style image
 
-
 ### **Bonus**
-- Add qr code below the image, so anyone can scan it and get your full contact
 
+- Add qr code below the image, so anyone can scan it and get your full contact

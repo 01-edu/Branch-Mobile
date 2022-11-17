@@ -21,4 +21,3 @@
 ###### Add a note, save it, close the app, open it, change the same note, close app, open app. Do you see updated value?
 
 ###### Does app has valid biometrical authentication? It may be either fingerprint or via camera.
-

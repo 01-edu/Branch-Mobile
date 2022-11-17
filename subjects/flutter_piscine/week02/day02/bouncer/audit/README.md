@@ -17,4 +17,3 @@
 ###### Does the game end when all tiles disappear?
 
 ###### Does the game end when ball hits bottom part of display?
-

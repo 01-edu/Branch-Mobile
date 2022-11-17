@@ -2,7 +2,6 @@
 
 #### In order to run and hot reload app either on emulator or device, follow the [instructions](https://docs.flutter.dev/get-started/test-drive?tab=androidstudio#run-the-app).
 
-
 ###### Does the app run without crashes?
 
 ###### Does the app change states as it is being used, i.e. is it stateful?
@@ -30,4 +29,3 @@
 ###### +When question is not answered within given time, is it considered as not answered?
 
 ###### +When question is not answered within given time, is it omitted and next one shown?
-

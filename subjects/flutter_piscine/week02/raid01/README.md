@@ -1,10 +1,10 @@
-# secureNotes
+## secureNotes
 
 ### Introduction
 
 The app where you can add your own notes. It should behave as normal notes app where you can add, modify, remove old notes, but the app should be secure. Being secure means that the notes should only be accessible through the app, and only after biometric authentication.
 
-Packages: *sqflite* package.
+Packages: _sqflite_ package.
 
 ### Objective
 
@@ -40,7 +40,6 @@ Packages: *sqflite* package.
 Add sqflite package, so your notes will be saved, even when app reloads.
 When app loads it should get notes from database.
 
-
 ```jsx
 class Database {
 Database _db;
@@ -66,7 +65,7 @@ Database class should also have CRUD methods like getAllNotes, deleteAllNotes, a
 
 Make a biometric authentication. Make sure that notes are not accessible without firstly authenticating user.
 
-> Note: you may use local_auth
+- Note: you may use local_auth
 
 ### Sixth Part
 

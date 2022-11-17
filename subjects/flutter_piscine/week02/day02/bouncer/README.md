@@ -1,11 +1,10 @@
-# Bouncer
+## bouncer
 
 ### Introduction
 
-Some apps require using phone's hardware. In this app you are presented such an opportunity.   
+Some apps require using phone's hardware. In this app you are presented such an opportunity.
 
 Develop an app that uses [accelerometer](https://www.credencys.com/blog/accelerometer/#:~:text=What%20does%20an%20accelerometer%20in,the%20orientation%20of%20your%20app.). The app should be a smaller version of the 90s game of bouncing ball, where ball would be moving around, and player’s objective is to prevent it from touching the bottom part of the screen.
-
 
 ### Rules of the game
 

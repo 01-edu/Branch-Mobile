@@ -1,4 +1,4 @@
-# favoriteImages
+## favoriteImages
 
 ### Introduction
 
