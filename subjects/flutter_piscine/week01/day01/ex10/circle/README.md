@@ -1,10 +1,33 @@
 ## circle
 
+### Instructions
+
+Create a class named `Circle`.
+
+Its attributes:
+
+- x - `double`
+- y - `double`
+- radius - `double`
+- getters:
+
+  - area
+  - perimeter
+  - rightMostCoordinate (x axis)
+  - leftMostCoordinate (x axis)
+  - highestCoordinate (y axis)
+  - lowestCoordinate (y axis)
+
+- Constructor:
+  - x - `required`
+  - y - `required`
+  - radius - `required`
+
 ### Getters and setters
 
-To work with objects' fields, either getting some information, or changing it, we have to use methods, as it might not be a good idea to directly change object's fields. 
+To work with objects, either getting some information or changing it, we should use methods as it might not be a good idea to directly change objects fields.
 
-An example of this principle is hunger - you should not change person's hunger level directly, but feed them instead. Since it is common to set or get fields' values, it is common to put getters and setters in the OOP.
+An example of this principle is hunger - you should not change person's hunger level directly, but feed them instead. Since it is common to set or get these values, we use getters and setters in OOP.
 
 In Dart, when you specify getters and setters, you must treat them as **fields**.
 
@@ -17,12 +40,12 @@ class Rectangle {
   Rectangle(this.l, this.t, this.w, this.h);
 
   double get right => this.l + this.w;
-  
+ 
   set left(double value) {
     if (value >= 0) {
       this.l = value;
     } else {
-      throw new FormatException(); 
+      throw new FormatException();
     }
   }
 
@@ -37,29 +60,4 @@ void main() {
 }
 ```
 
-
-### **Exercise**
-
-Make a class named `Circle`.
-
-Its fields:
-
-- x - double
-- y - double
-- radius - double
-- getters:
-  - area
-  - perimeter
-  - rightMostCoordinate (x axis)
-  - leftMostCoordinate (x axis)
-  - highestCoordinate (y axis)
-  - lowestCoordinate (y axis)
-
-
-- Constructor:
-  - x - required
-  - y - required
-  - radius - required
-
-> Note: Do not use math library, pi = 3.14
-
+- Note: Do not use math library, pi = 3.14

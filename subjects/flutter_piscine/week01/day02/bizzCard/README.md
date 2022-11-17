@@ -1,4 +1,5 @@
-# BizzCard
+## bizzCard
+
 ### Introduction
 
 ### What is Flutter?
@@ -21,13 +22,13 @@ Hint: You can see some Flutter samples [here](https://flutter.github.io/samples/
 
 BizzCard is a simple application which shows a static card with your personal information.
 
-This subject is divided into 3 parts. Overall **objective** is:
+This subject is divided into 3 parts. Overall objective is for you to learn:
 
-- Learn about and apply the essence of Flutter - widgets.
+- About and apply the essence of Flutter - widgets.
 - Basic structure of a Flutter app.
 - How to run Flutter app on physical device or Android/iOS emulator.
 
-> Note: only standard Flutter packages and url_launcher (for bonus) are allowed
+- Note: only standard Flutter packages and url_launcher (for bonus) are allowed
 
 ### First Part
 
@@ -36,7 +37,7 @@ In this part:
 - Run Flutter generated counter app
 - Understand structure of the Flutter app
 
-To create your first Flutter application open Android Studio and follow the steps:
+To create your first Flutter application open Android Studio or similar IDE and follow the steps:
 
 1. Open the IDE and select **Start a new Flutter project**.
 2. Select **Flutter Application** as the project type. Then click **Next**.
@@ -46,7 +47,7 @@ To create your first Flutter application open Android Studio and follow the step
 5. Click **Finish**.
 6. Wait for Android Studio to install the SDK and create the project.
 
-See the Run the app section in [https://flutter.dev/docs/get-started/test-drive?tab=androidstudio#create-app](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio#create-app) to run a sample app.
+See the Run the app section [here](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio#create-app) to run a sample app.
 
 The starter point in Flutter app is in lib/main.dart. Change this file to change app's behavior.
 
@@ -65,17 +66,16 @@ Try to make it as it is shown in the example below:
 <!-- </center> -->
 </center>
 
-Possible diagram of widget tree for the app: https://flutter.dev/docs/development/ui/layout
-
+Possible [diagram](https://flutter.dev/docs/development/ui/layout) of widget tree for the app.
 
 #### Helpful keywords for research:
+
 - AppBar
 - Column to align text in a card
 - Stack to place image on Container
 - Padding to add paddings to Container
 - Use DecorationImage inside BoxDecoration to style image
 
-
 ### **Bonus**
-- Add qr code below the image, so anyone can scan it and get your full contact
 
+- Add qr code below the image, so anyone can scan it and get your full contact

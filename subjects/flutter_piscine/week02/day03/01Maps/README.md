@@ -1,4 +1,4 @@
-# 01Maps
+## 01Maps
 
 ### Introduction
 
@@ -11,9 +11,9 @@ In this raid, your team should implement an app which uses google maps.
 Implement following functionality:
 
 - Tabbar app with 3 screens:
-    - Google maps screen [example](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0)
-    - List of your favorite places.
-    - Info about your app. Names of the authors, their email adresses, and general description of what your application does.
+  - Google maps screen [example](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0)
+  - List of your favorite places.
+  - Info about your app. Names of the authors, their email adresses, and general description of what your application does.
 
 On map there must be:
 
@@ -30,9 +30,7 @@ On InfoPage Screen:
 
 - Your names as developers, year, etc
 
-
-> Note: don't forget about info.plist: 
-
+- Note: don't forget about info.plist:
 
 ```
 NSLocationWhenInUseUsageDescription

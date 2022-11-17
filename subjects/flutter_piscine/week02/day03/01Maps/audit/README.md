@@ -1,5 +1,7 @@
 #### Functional
 
+#### In order to run and hot reload app either on emulator or device, follow the [instructions](https://docs.flutter.dev/get-started/test-drive?tab=androidstudio#run-the-app).
+
 ###### Does the application run without crashes?
 
 ###### Does the application have Bottom tabbar?
@@ -16,7 +18,7 @@
 
 ###### When map is tapped, does dialog window show 2 textfields: name and description?
 
-###### Does the application have current location button?
+###### Does the application have current location button. If so, does it lead you to your current place?
 
 ###### Does the application have searchbar?
 
@@ -31,7 +33,3 @@
 ###### Does the application work both on android and ios?
 
 ###### Tap on marker. Do you see relevant information about the place?
-
-#### Bonus:
-
-###### +Is the UI/UX outstanding?

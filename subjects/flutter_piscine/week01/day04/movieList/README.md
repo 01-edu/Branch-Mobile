@@ -1,11 +1,11 @@
-# MovieList
+## MovieList
 
 ### Introduction
 
-When developign a fullly functional app, you will most likely use some external files to display on your app. One of the most popular file types is JSON.  
+When developing a fullly functional app, you will most likely use some external files to display on your app. One of the most popular file types is JSON.  
 Develop an app to work with JSON. You are given a file with information about different movies.
-You must display top rated movies on the first page of the app. By tapping at a movie, a new route with more detailed information regarding the movie must be displayed.  
-Searching for a movie via search bar must be included. Searching is done by movie name, entered string must be completely within movie name, i.e. if "vatar" is searched, "Avatar" must be included in the response. Basically, search must work like SQL's ***ilike*** comparision.
+You must display top rated movies with descending rating on the first page of the app. By tapping on a movie, a new route with more detailed information regarding the movie must be displayed.  
+Searching for a movie via search bar must be included. Searching must be done by movie name, Entered string must be completely within movie name, i.e. if "vatar" is searched, "Avatar" must be included in the response. Basically, search must work like SQL's ***ilike*** comparision.
 
 ### Objective
 
@@ -20,7 +20,7 @@ Searching for a movie via search bar must be included. Searching is done by movi
 
 ### Part 1
 
-Create a ListView which will show the image, title and description from JSON file (see Assets section);
+Create a ListView which will show the image, title and description of movies from JSON file (see **Assets** section);
 
 Create a class with properties:
 
@@ -35,10 +35,9 @@ class Movie {
 }
 ```
 
-Add fromJson method to make a json serialization, see more on [https://flutter.dev/docs/development/data-and-backend/json](https://flutter.dev/docs/development/data-and-backend/json)
-https://api.flutter.dev/flutter/foundation/Factory-class.html
+Add fromJson method to make a json serialization, see more on [here](https://flutter.dev/docs/development/data-and-backend/json).
 
-Your ListView should use FutureBuilder to wait for data from JSON file and then show it once it is loaded.
+Your ListView should use [FutureBuilder](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html) to wait for data from JSON file and then show it once it is loaded.
 
 <center>
 <img src="https://github.com/alem-01/alem_public/blob/master/resources/movieList.01.png?raw=true" style = "width: 210px !important; height: 420px !important;"/>
@@ -48,17 +47,17 @@ Your ListView should use FutureBuilder to wait for data from JSON file and then 
 
 Create a page with detailed information about the movie.
 
-It should have an image of the movie, at least 5 parameters from the film's information, i.e. when it was filmed, main actors, etc; use scroll bar if the info doesn't fit in one page;
+It should have an image of the movie, at least 5 parameters from the film's information, i.e. when it was filmed, main actors, anything else you might consider useful. Use scroll bar if the info doesn't fit in one page.
 
 The appbar should have a name of the film and go back button.
 
-Visit  [https://flutter.dev/docs/cookbook/navigation/named-routes](https://flutter.dev/docs/cookbook/navigation/named-routes) to see how to implement routing.
+Visit [documentaion](https://flutter.dev/docs/cookbook/navigation/named-routes) to see how to implement routing.
 
 ### **Assets**
-  [movies.json](movies.json)
+  [Movies](movies.json).
 
 
 ### **Bonus**
-  Make extra effort on the UI of the App.
-
-[https://flutter.dev/docs/resources/platform-adaptations](https://flutter.dev/docs/resources/platform-adaptations)
+- Make [navigation transition](https://docs.flutter.dev/resources/platform-adaptations) when switching routes.
+- Make [back navigation](https://docs.flutter.dev/resources/platform-adaptations#back-navigation).
+- Animate [overscroll behaviour](https://docs.flutter.dev/resources/platform-adaptations#overscroll-behavior).

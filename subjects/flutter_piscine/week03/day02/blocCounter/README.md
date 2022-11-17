@@ -1,13 +1,12 @@
-# blocCounter
+## blocCounter
 
-### Inroduction
+### Introduction
 
-Usually, when projects get bigger and more complex, managing all the widges, their states, and updating their children's states will become troublesome. To avoid possible complexity, we recommend using patterns.
+Usually, when projects get bigger and more complex, managing all the widges, their states, and updating their children's states will become troublesome. To avoid possible complexity, we recommend using **Patterns**.
 Patterns are built in a way that lets developers control the hierarchy of widgets much easier, and a popular one in the Flutter is - BLoC.
 
-
 Implement simple counter app using Bloc Pattern.  
-When you will start writing your own application, you will need to structure your app first.
+When you start writing your own application, you will need to structure your app first.
 
 <img src="https://github.com/alem-01/alem_public/blob/master/resources/blocCounter.02.png?raw=true" width="200"/>
 
@@ -24,9 +23,7 @@ Bloc consist of 2 concepts :
 
 - `Streams`
 - `Sinks`
-  , which are provided by `StramController`.
-
-See:
+  , which are provided by `StreamController`.
 
 <pre>
 <code>

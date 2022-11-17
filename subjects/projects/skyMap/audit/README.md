@@ -1,5 +1,7 @@
 #### Functional
 
+#### In order to run and hot reload app either on emulator or device, follow the [instructions](https://docs.flutter.dev/get-started/test-drive?tab=androidstudio#run-the-app).
+
 ###### Was the app committed within the required time period?
 
 ###### Does the app run without crashes?
@@ -10,13 +12,14 @@
 
 ###### Are moon, Mars, and Venus visible in the app?
 
-###### Try moving the phone around, does it behave accordingly?
+###### Ask student about constellations of their choice, and find them in the app?
 
-###### Does the app follow any of the necessary patterns?
+###### Check if the retrieved data is either from API or from a file. If the data comes from file, check its validity?
 
-#### Bonus:
+###### Try moving the phone around, does it change the celestial objects shown on the display?
 
-###### +Can you see at least 5 of out solar system's planets?
+###### Try tapping on the sun, mars. Does the app display basic information about objects, such as mass, name.
 
-###### +Are both the sun and moon visible on the app?
+###### Ask student about pattern implementation. If they used BLoC ask them to explain the pattern, and [check](https://pub.dev/packages/flutter_bloc) whether they implemented it correctly.
 
+###### Ask student about pattern implementation. If they used Provider ask them to explain the pattern, and [check](https://pub.dev/packages/provider) whether they implemented it correctly.
