@@ -1,6 +1,6 @@
-# blocCounter
+## blocCounter
 
-### Inroduction
+### Introduction
 
 Usually, when projects get bigger and more complex, managing all the widges, their states, and updating their children's states will become troublesome. To avoid possible complexity, we recommend using **Patterns**.
 Patterns are built in a way that lets developers control the hierarchy of widgets much easier, and a popular one in the Flutter is - BLoC.

@@ -1,4 +1,4 @@
-#### Functional:
+#### Functional
 
 ###### Does the app run without crashes?
 
