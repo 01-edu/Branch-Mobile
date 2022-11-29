@@ -1,6 +1,8 @@
 FROM google/dart:2.12
 
+RUN ["ls"]
 WORKDIR /app
+RUN ["ls"]
 COPY "pubspec.yaml" .
 RUN ["dart", "pub", "get"]
 COPY . .
