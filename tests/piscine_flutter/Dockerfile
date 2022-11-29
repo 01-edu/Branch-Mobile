@@ -1,7 +1,7 @@
 FROM google/dart:2.12
 
 WORKDIR /app
-COPY "pubspec.*" .
+COPY "pubspec.yaml" .
 RUN ["dart", "pub", "get"]
 COPY . .
 #RUN ["dart", "pub", "get"]
