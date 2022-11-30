@@ -25,5 +25,5 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build tests/piscine_flutter/ --file tests/piscine_flutter/Dockerfile --tag ghcr.io/01-edu/test-dart:latest
-        docker run ghcr.io/01-edu/test-dart:latest
+        # docker run ghcr.io/01-edu/test-dart:latest
         docker push ghcr.io/01-edu/test-dart:latest
