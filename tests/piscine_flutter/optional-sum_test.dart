@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'package:test/test.dart';
 
-import '/jail/student/optionalSum.dart' as student;
+import '/jail/student/optional-sum.dart' as student;
 
 void main() {
   group('optionalSum', () {

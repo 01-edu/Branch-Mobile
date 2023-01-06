@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'package:test/test.dart';
 
-import '/jail/student/namedOptionalSum.dart' as student;
+import '/jail/student/named-optional-sum.dart' as student;
 
 void main() {
   group('namedOptionalSum', () {
@@ -12,7 +12,7 @@ void main() {
       int first = -100 + rnd.nextInt(200);
       int second = -100 + rnd.nextInt(200);
       int third = -100 + rnd.nextInt(200);
-      
+
       test(
           'namedOptionalSum(first: ${first}, second: ${second}, third: ${third})',
           () {

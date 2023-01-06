@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'package:test/test.dart';
 
-import '/jail/student/maxNum.dart' as student;
+import '/jail/student/max-num.dart' as student;
 
 void main() {
   group('maxNum', () {

@@ -2,7 +2,7 @@
 
 import 'package:test/test.dart';
 
-import '/jail/student/dataStructures.dart' as student;
+import '/jail/student/data-structures.dart' as student;
 
 void main() {
   group('data structures', () {

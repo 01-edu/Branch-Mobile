@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'package:test/test.dart';
 
-import '/jail/student/plainSum.dart' as student;
+import '/jail/student/plain-sum.dart' as student;
 
 void main() {
   group('plainSum', () {

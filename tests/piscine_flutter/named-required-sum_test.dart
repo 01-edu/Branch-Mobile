@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'package:test/test.dart';
 
-import '/jail/student/namedRequiredSum.dart' as student;
+import '/jail/student/named-required-sum.dart' as student;
 
 void main() {
   group('namedRequiredSum', () {
