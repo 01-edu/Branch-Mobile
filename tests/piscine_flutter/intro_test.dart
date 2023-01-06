@@ -7,6 +7,6 @@ void main() {
   test('intro', () async {
     var process = await TestProcess.start("dart", ["/jail/student/intro.dart"]);
 
-    await expectLater(process.stdout, emits("Hello, World!"));
+    await expectLater(process.stdout, emits("Hello, world!"));
   });
 }
